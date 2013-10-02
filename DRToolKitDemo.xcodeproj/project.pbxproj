@@ -22,6 +22,7 @@
 		510454F417FBF5F6008326CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 510454D317FBF5F6008326CC /* UIKit.framework */; };
 		510454FC17FBF5F6008326CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 510454FA17FBF5F6008326CC /* InfoPlist.strings */; };
 		510454FE17FBF5F6008326CC /* DRToolKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 510454FD17FBF5F6008326CC /* DRToolKitDemoTests.m */; };
+		5104550917FBF810008326CC /* DRCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5104550817FBF810008326CC /* DRCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		510454F917FBF5F6008326CC /* DRToolKitDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DRToolKitDemoTests-Info.plist"; sourceTree = "<group>"; };
 		510454FB17FBF5F6008326CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		510454FD17FBF5F6008326CC /* DRToolKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRToolKitDemoTests.m; sourceTree = "<group>"; };
+		5104550717FBF810008326CC /* DRCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DRCollectionViewController.h; path = DRCollectionViewController/DRCollectionViewController.h; sourceTree = "<group>"; };
+		5104550817FBF810008326CC /* DRCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DRCollectionViewController.m; path = DRCollectionViewController/DRCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,7 @@
 		510454C317FBF5F5008326CC = {
 			isa = PBXGroup;
 			children = (
+				5104550A17FBF819008326CC /* DRCollectionViewController */,
 				510454D517FBF5F6008326CC /* DRToolKitDemo */,
 				510454F717FBF5F6008326CC /* DRToolKitDemoTests */,
 				510454CE17FBF5F6008326CC /* Frameworks */,
@@ -153,6 +157,15 @@
 				510454FA17FBF5F6008326CC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5104550A17FBF819008326CC /* DRCollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5104550717FBF810008326CC /* DRCollectionViewController.h */,
+				5104550817FBF810008326CC /* DRCollectionViewController.m */,
+			);
+			name = DRCollectionViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5104550917FBF810008326CC /* DRCollectionViewController.m in Sources */,
 				510454E917FBF5F6008326CC /* ViewController.m in Sources */,
 				510454E017FBF5F6008326CC /* AppDelegate.m in Sources */,
 				510454DC17FBF5F6008326CC /* main.m in Sources */,
@@ -474,6 +488,7 @@
 				5104550317FBF5F6008326CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5104550417FBF5F6008326CC /* Build configuration list for PBXNativeTarget "DRToolKitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +497,7 @@
 				5104550617FBF5F6008326CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
